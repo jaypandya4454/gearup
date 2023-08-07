@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100%;
+    padding-top: 15px;
+   
+    /* background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)); */
+    background-position: center;
+    background-size: center ;
+   
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    /* margin-top: -10px; */
+    cursor: pointer;
+    padding-left: 115px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul li a:hover {
+    color: Red;
+}
+.banner img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(70%);
+}
+.content {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 35%;
+    padding-left: 100px;
+
+    /* text-align: center; */
+}
+
+.content p a{
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    
+}
+.content a:hover{
+    color: red;
+}
+.content h1 {
+    font-size: 90px;
+    font-weight: 800;
+    margin-top: 2px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+button {
+    width: 230px;
+    padding: 15px;
+    margin: 20px 5px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+button i {
+    padding-left: 15px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.touch {
+    background-color: #d6dbde;
+    margin-top: 680px;
+    height: 650px;
+}
+.gth h6 {
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.gth h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: black;
+}
+
+.gtm {
+    padding-top: 65px;
+    padding-left: 115px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gtm input,textarea {
+    width: 550px;
+    height: 55px;
+    padding-top: 12px;
+    padding-left: 15px;
+    color: gray;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 2px;
+}
+
+.gtm textarea {
+    height: 100px;
+}
+.gtc {
+    padding-left: 135px;
+    padding-top: 50px;
+}
+.gtc h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+
+
+}
+.contact {
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.gtc p {
+    width: 50%;
+    color: gray;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+}
+
+.gtc h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+
+    padding-top: 10px;
+
+}
+
+.gtc i {
+    color: red;
+    padding-right: 15px;
+}
+.gtc .contact p {
+    color: black;
+    padding-left: 55px;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.fmain {
+    padding-left: 115px;
+    padding-right: 115px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
+}
+
+.fmain h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.fmain a,.fmain p {
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fmain p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.fmain a:hover {
+    color: red;
+
+}
+
+.fp{
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}

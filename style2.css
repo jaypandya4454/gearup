@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100%;
+    padding-top: 15px;
+   
+    /* background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)); */
+    background-position: center;
+    background-size: center ;
+   
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    /* margin-top: -10px; */
+    cursor: pointer;
+    padding-left: 115px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul li a:hover {
+    color: Red;
+}
+.banner img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(70%);
+}
+.content {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 35%;
+    padding-left: 100px;
+
+    /* text-align: center; */
+}
+
+.content p a{
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    
+}
+.content a:hover{
+    color: red;
+}
+.content h1 {
+    font-size: 90px;
+    font-weight: 800;
+    margin-top: 2px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+button {
+    width: 230px;
+    padding: 15px;
+    margin: 20px 5px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+button i {
+    padding-left: 15px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+#service{
+    margin-top:505px;
+    background-color: #d6dbde;
+    height: 1450px;
+}
+.sh {
+    padding-top: 75px;
+    padding-left: 115px;
+}
+.sh h6 {
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.sh h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.sh p {
+    width: 70%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: gray;
+    font-size: 18px; 
+}
+
+.sm {
+    padding-left: 115px;
+    padding-right: 120px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 70px;
+    padding-top: 70px;
+}
+
+.sm .sm1 {
+    background-color: darkred;
+    width: min-content;
+    height: 260px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.engine img {
+    width: 80px;
+    color: white;
+   padding-top: 5px;
+}
+
+.engine {
+    position: absolute;
+    top: 170px;
+    left: 290px;
+    width: fit-content;
+    height:89px;
+    border-radius: 12px;
+
+    background-color: darkred;
+}
+
+.sm h3 {
+    padding-top: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.sm hr {
+    border-top: 1px solid darkred;
+     margin-top: 5px;
+}
+
+
+.aa {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+  
+  }
+
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 26px;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .sm1 {
+    position: relative;
+    width: 50%;
+  }  
+  
+  .sm1:hover .image {
+    opacity: 0.1;
+  }
+  
+  .sm1:hover .aa {
+    opacity: 1;
+  }
+
+  .sm1:hover .engine {
+    background-color: black;
+  }
+  #service button {
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.fmain {
+    padding-left: 115px;
+    padding-right: 115px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
+}
+
+.fmain h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.fmain a,.fmain p {
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fmain p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.fmain a:hover {
+    color: red;
+
+}
+
+.fp{
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100%;
+    padding-top: 15px;
+   
+    /* background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)); */
+    background-position: center;
+    background-size: center ;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    /* margin-top: -10px; */
+    cursor: pointer;
+    padding-left: 115px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul li a:hover {
+    color: Red;
+}
+.banner img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(70%);
+}
+.content {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 35%;
+    padding-left: 100px;
+
+    /* text-align: center; */
+}
+
+.content p a{
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    
+}
+.content a:hover{
+    color: red;
+}
+.content h1 {
+    font-size: 90px;
+    font-weight: 800;
+    margin-top: 2px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+button {
+    width: 230px;
+    padding: 15px;
+    margin: 20px 5px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+button i {
+    padding-left: 15px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}

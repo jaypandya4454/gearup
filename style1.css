@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100%;
+    padding-top: 15px;
+   
+    /* background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)); */
+    background-position: center;
+    background-size: center ;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    /* margin-top: -10px; */
+    cursor: pointer;
+    padding-left: 115px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul li a:hover {
+    color: Red;
+}
+.banner img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(70%);
+}
+.content {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 35%;
+    padding-left: 100px;
+
+    /* text-align: center; */
+}
+
+.content p a{
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    
+}
+.content a:hover{
+    color: red;
+}
+.content h1 {
+    font-size: 90px;
+    font-weight: 800;
+    margin-top: 2px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+button {
+    width: 230px;
+    padding: 15px;
+    margin: 20px 5px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+button i {
+    padding-left: 15px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.welcome {
+    margin-top: 765px;
+}
+.wc {
+    display: flex;
+    padding-left: 115px;
+}
+.wh h6{
+    color:darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+
+.wh h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+}
+
+.wh h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 70%;
+}
+
+.wh p {
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+.saft {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 15px;
+
+}
+.saft p {
+     padding-top: 25px;
+     color: black;
+     font-weight: bolder;
+}
+.saft i {
+    color:red;
+    padding-right: 15px;
+}
+
+.wi1 {
+    padding-right: 120px;
+}
+
+.wi {
+    padding-right: 10px;
+}
+
+.welcome button {
+    margin-top: -50px;
+    margin-left: 250px;
+}
+
+.mission {
+    background-image: url(img/bg-16.jpg);
+}
+
+.mm {
+    display: flex;
+    position: relative;
+    padding-left: 135px;
+}
+.mh {
+    padding-top: 65px;
+}
+.mh h6 {
+    color:darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+
+.mh h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.mh p {
+    width: 80%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.more {
+    width: 150px;
+    height:176px ;
+    background-color: darkred;
+    padding-top: 25px;
+    padding-left: 25px;
+    position: absolute;
+    top: 1850px;
+    left: 680px;
+}
+.more img {
+    padding-left: 25px;
+}
+.more p {
+
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#about {
+    background-color: #d6dbde;
+}
+
+
+
+
+
+.acontent {
+    display: flex;
+    padding-left: 115px;
+    padding-top: 65px;
+}
+.ac {
+    margin-top: 35px;
+   
+    padding-left: 215px;
+}
+
+.ac h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.ac h6{
+    color:darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+
+.ac .ribg {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px;
+    padding-right: 115px;
+}
+.ribg  {
+    padding-top: 45px;
+}
+
+
+.ribg h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    
+   
+}
+
+.ribg p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.abtn button {
+    margin-left: 150px;
+    margin-top: 15px;
+    background-color: rgb(207, 202, 202);
+    font-weight: lighter;
+}
+
+.tea {
+    padding-top: 85px;
+    padding-left: 115px;
+    padding-right: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.teamheading h6 {
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.teamheading h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: black;
+}
+
+.teamheading p {
+    width: 100%;
+    text-align: justify;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+}
+
+.teamheading .p1 {
+    width: 100%;
+    text-align: justify;
+    color: rgb(57, 56, 56);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+}
+
+.tb1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.tb {
+    width: 50px;
+    height: 50px;
+}
+
+.tc1 {
+    position: relative;
+    padding-left: 35px;
+    width: 80%;
+}
+.person {
+    top: 320px;
+    left: 105px;
+    position: absolute;
+    width: 70%;
+}
+
+.person i {
+    padding-left: 5px;
+}
+
+.person h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+.person p {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+}
+.tc1 .person{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+.toverlay {
+    position: absolute;
+    bottom: 0px;
+    top: 0;
+    left: 97px;
+    display: none;
+    overflow: hidden;
+
+    transition: .5s ease;
+  }
+
+  .tc1:hover .toverlay  {    
+    background-color: darkred;
+    bottom: 0;
+    height: 57px;
+    width: 250px;
+    display: block;
+  }
+
+
+  .toverlay i {
+    color: white;
+  }
+  .fa-facebook:hover {
+    color: #3b5998;
+}
+
+
+.fa-instagram:hover{
+color: #d6249f;
+
+}
+
+.fa-linkedin:hover {
+    color:#0A66C2;
+}
+
+.fa-twitter:hover {
+    color:#00acee;
+}
+.testimonials {
+    background-color: #d6dbde;
+    height: 720px;
+}
+
+.tm {
+    padding-top: 85px;
+    padding-left: 515px;
+    display: flex;
+}
+
+.tc2 p {
+    width: 70%;
+    padding-left: 85px;
+    font-size: 20px;
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.tc2 h4{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+    padding-left:112px;
+   
+}
+
+.tc2 h6 {
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    padding-left:135px;
+}
+
+.testimain {
+    padding-left: 115px;
+    padding-top: 115px;
+}
+.testih h6{
+    color:darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+
+.testih h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+}
+
+.testih{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.testip p {
+   
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: gray;
+    font-size: 18px;
+    text-align: end;
+}
+
+.testic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testic1 {
+   
+    margin-top: 85px;
+    width: 550px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px; 
+    box-shadow: 0px 0px 15px gray;
+
+    
+}
+
+.tcc {
+    padding-top: 65px;
+    display: flex;
+}
+.tcc img {
+    padding-left: 12px;
+}
+.tcc p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: gray;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tcc h6 {
+    text-align: end;
+}
+.testic1 h4,.testic h6 {
+    text-align: end;
+    padding-right: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.working {
+    background-image: url(img/bg-4.jpg);
+    height: 350px;
+}
+.workingh {
+    padding-left:115px;
+    padding-top: 55px;
+}
+.workingh h6 {
+    color: darkred;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.workingh h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: white;
+}
+
+
+.workingh p {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+}
+.schedule {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    height: 150px;
+    width: 100%;
+   
+   
+} 
+
+.scheduleheading,.scheduleheading1{
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+
+
+}
+
+.scheduleheading {
+    padding-left: 115px;
+    
+}
+.scheduleheading h2,.scheduleheading1 h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.scheduleheading p {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.scheduleheading2 {
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.fmain {
+    padding-left: 115px;
+    padding-right: 115px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
+}
+
+.fmain h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.fmain a,.fmain p {
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fmain p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.fmain a:hover {
+    color: red;
+
+}
+
+.fp{
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
